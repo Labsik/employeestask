@@ -44,7 +44,7 @@ const AllEmployees = () => {
         <p>Oops, something went wrong on server side..</p>
       ) : !loading ? (
         <>
-          <h2>Employesses</h2>
+          <h2>Employees</h2>
           <div className="employees__list">{employeesList}</div>
         </>
       ) : (
